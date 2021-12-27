@@ -1,6 +1,9 @@
 /* styles.css */
 
-body {background-color:#00aa99;}
+body {
+    background-color:#00aa99;
+    text-align: center;
+  }
 div {    
     background-color: transparent;
     margin:-18px -8px 0 -8px;
@@ -64,4 +67,8 @@ div {
     text-align: center;
     margin-bottom: 0px;
   }
+  
+#homepage {
+  color: black;
+}
 
