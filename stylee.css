@@ -2,7 +2,7 @@
 
 div {    
     background-color: transparent;
-    margin :-18px -8px 0 -8px;
+    margin:-18px -8px 0 -8px;
     border-radius: 0px;
     color: bisque;
     font-family: DejaVu Serif, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -16,7 +16,7 @@ div {
     height:auto;
   }
   .marginTop {
-    margin :-18px -8px 0 -8px;
+    margin:-18px -8px 0 -8px;
     border-radius: 0;
     background-color: bisque;
   }
@@ -39,7 +39,7 @@ div {
 
   .marginBottom {
     background-color: black;
-    margin :-30px -8px -10px -8px;
+    margin:-30px -8px -10px -8px;
     padding-top: 50px;
     border-radius: 0;
     background-color: black;
