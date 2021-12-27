@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylee.css">
     <title>Document</title>
 </head>
 <style type="text/css">
@@ -21,16 +22,27 @@
         border-style: inset;
         border-width: 1px;
       }
+      p.cooking {
+          background-color: green;
+          font-family: DejaVu Serif, Cochin, Georgia, Times, 'Times New Roman', serif;
+          font-size: 18px;
+          text-align: left; 
+          margin-left: 30%; 
+          margin-right: 30%;
+      }
     hr.toppage {margin-top: -1em}
-    h1.toppage {margin-top: -.5em; color:beige}
+    h1.toppage {
+        margin-top: -.1em;
+        margin-bottom: auto; 
+        color:black
+      }
 </style>
 
 <body style="text-align: center;" bgcolor="#00aa99">
-    <p style="background-color:beige;">
-        <hr class="toppage" style="height:20px;border-width:0;color:beige;background-color:beige; width:40%"> 
-        <h1 class="toppage">Ectoplasmic Lasagna</h1>
-        <img src="../images/lasagna_pic.webp" width="400">
-    </p>
+        <div class="marginTop"><h1 class="toppage">Ectoplasmic Lasagna</h1></div>
+        <div class="lasgnaImage"><img src="../images/lasagna_pic.webp" width="400"></div>
+        
+
     <h2 style="text-align: left; margin-left: 30%; margin-right: 30%;">Ingredients</h2>
     <ul style="text-align: left; margin-left: 30%; margin-right: 30%;">
     <li>9 lasagna noodles</li>
@@ -51,13 +63,11 @@
     <li>1 (10 ounce) package frozen chopped spinach, thawed and drained</li>
     <li>1 cup shredded mozzarella cheese</li> 
     </ul>
-    <hr style="height:2px;border-width:0;color:black;background-color:black; width:40%"> 
-    <a href="../index.html">| BACK HOME |</a>
-    <hr style="height:2px;border-width:0;color:black;background-color:black; width:40%"> 
+    <a href="../index.html" style="background-color:bisque; font-size: 18px; padding: 8px 15px 8px 15px;">BACK HOME</a>
 
 
     <h2 style="text-align: left; margin-left: 30%; margin-right: 30%;">Directions</h2>
-    <p style="text-align: left; margin-left: 30%; margin-right: 30%;">
+    <div style="text-align: left; margin-left: 30%; margin-right: 30%;">
     <strong>Step 1</strong><br>
     Bring a large pot of lightly salted water to a boil.<br><br> 
     Cook lasagna in the boiling water, stirring occasionally 
@@ -94,15 +104,15 @@
     <strong>Step 7</strong><br>
     Bake in the preheated oven until cheese is lightly browned and bubbling, 
     about 30 minutes.
-    </p>
+    </div>
 
     <h2 style="text-align: left; margin-left: 30%; margin-right: 30%;">Cook's Note:</h2>
-    <p style="text-align: left; margin-left: 30%; margin-right: 30%;">
+    <p class="cooking">
     Make this recipe ahead of time and store in refrigerator. 
     Also, freezes well for a healthy instant dinner on a busy night!
     </p>
-    <hr style="height:2px;border-width:0;color:black;background-color:black; width:40%"> 
-    <a href="../index.html">| BACK HOME |</a>
+    <a href="../index.html" style="background-color:bisque; font-size: 18px; padding: 8px 15px 8px 15px;">BACK HOME</a>
+    <div class="marginBottom"></div>
 
 </body>
 </html>
