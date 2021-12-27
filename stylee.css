@@ -1,37 +1,61 @@
 /* styles.css */
 
-div {
-    
-    background-color: black;
-    border-radius: 25px;
-    color: white;
+div {    
+    background-color: transparent;
+    margin :-18px -8px 0 -8px;
+    border-radius: 0px;
+    color: bisque;
     font-family: DejaVu Serif, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 32px;
     font-weight: bold;
     text-align: center;
     padding: 15px;
   }
-  div.marginBottom {
-    margin :-8px;
-    border-radius: 0;
+  img {
+    max-width: 100%;
+    height:auto;
   }
-  div.marginTop {
+  .marginTop {
     margin :-18px -8px 0 -8px;
     border-radius: 0;
     background-color: bisque;
   }
-
-  div.lasgnaImage {
-    margin :18px -8px 0 -8px;
-    background-color: transparent;
+  .marginBody, .cookNotes, .lasgnaImage{
+    margin-left: 30%;
+    margin-right: 30%;
   }
   
-  p.cooking {
+  #cookNotes {
     background-color: green;
-    border-radius: 25px;
     color: white;
     font-family: DejaVu Serif, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 32px;
-    font-weight: bold;
-    padding: 15px;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: left;
   }
+  .marginBody {
+    background-color: black;
+  }
+
+  .marginBottom {
+    background-color: black;
+    margin :-30px -8px -10px -8px;
+    padding-top: 50px;
+    border-radius: 0;
+    background-color: black;
+  }
+
+  .lasgnaImage {
+    background-color: black;
+    padding-bottom: 50px;
+  }
+  
+  p.directions {
+    font-weight: bold;
+    text-align: left;
+  }
+  #cooking {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
