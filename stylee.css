@@ -22,7 +22,7 @@ a.topLinks {
   font-weight: bold;
   position: absolutedd;
   margin-bottom: 1em; 
-  padding: 8px 15px 8px 15px;
+  padding: .5em .9375em .5em .9375em;
   display: block;
 } 
 ul#topLinks {
@@ -52,7 +52,7 @@ body {
 div {    
     background-color: transparent;
     margin:0;
-    border-radius: 0px;
+    border-radius: 0;
     font-family: DejaVu Serif, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     text-align: center;
@@ -67,7 +67,7 @@ div {
     margin-left: auto;
     margin-right: auto;
     border-style: inset;
-    border-width: 1px;
+    border-width: .0625em;
   }
 
 hr.toppage {margin-top: -1em}
@@ -102,11 +102,12 @@ h1.toppage {
     padding: 0.3em;
   }
   
-  #cookNotes {margin-top: -.1em;
+  #cookNotes {
+    margin-top: -.1em;
     margin-bottom: 10em;
     color: #755935;
     text-align: center;
-    padding-top: 1em;n, Georgia, Times, 'Times New Roman', serif;
+    padding-top: Cambria, Georgia, Times, 'Times New Roman', serif;
     margin-left: 30%;
     margin-right: 30%;
     text-align: left;
@@ -155,8 +156,8 @@ h1.toppage {
 }
 .topheader h1 {
   font-size: 3em;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .recipeContainer {
   color: #755935;
