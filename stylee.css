@@ -1,19 +1,85 @@
 /* styles.css */
+* {
+  box-sizing: border-box;
+}
+
+A:link { COLOR: #755935; TEXT-DECORATION: none; font-weight: normal }
+A:visited { COLOR: #755935; TEXT-DECORATION: none; font-weight: normal }
+A.topLinks:active { COLOR: #755935; TEXT-DECORATION: none }
+A.topLinks:hover { 
+  COLOR: bisque; 
+  background-color:#755935; 
+  text-decoration: none; 
+  font-weight: none }
+.table {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+a.topLinks {
+  background-color:bisque; 
+  font-size: 18px; 
+  font-weight: bold;
+  position: absolutedd;
+  margin-bottom: 1em; 
+  padding: 8px 15px 8px 15px;
+  display: block;
+} 
+ul#topLinks {
+  list-style-type: none;
+  background-color: bisque;
+}
+
+li#topLinks {
+  float: left;
+}
+
+li a.topLinks {
+  display: inline;
+  color: #755935;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a.topLinks:hover {
+  background-color: #755935;
+}
 
 body {
-    background-color:#00aa99;
+    background-color: whitesmoke;
     text-align: center;
   }
 div {    
     background-color: transparent;
-    margin:-18px -8px 0 -8px;
+    margin:0;
     border-radius: 0px;
     font-family: DejaVu Serif, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 32px;
     font-weight: bold;
     text-align: center;
-    padding: 15px;
+    /* padding-bottom: .875em; */
   }
+  div a{padding-top: 2em;}
+
+  hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
+
+hr.toppage {margin-top: -1em}
+h1.toppage {
+    margin-top: -1em;
+    margin-bottom: auto;
+    color: #755935;
+    text-align: center;
+    padding-top: 1em;
+    font-size: 4em;
+  }
+
   img {
     max-width: 100%;
     height:auto;
@@ -22,53 +88,97 @@ div {
   }
   img.recipes {
     border-radius: 15%;
+    margin-top:2em;
   }
   .marginTop {
-    margin:-18px -8px 0 -8px;
+    margin:-0.125em -.5em 0 -.5em;
     border-radius: 0;
-    background-color: bisque;
+    background-color: #00aa99;
+    border-bottom: 0.2em solid #755935;
   }
   .marginBody, .cookNotes, .lasgnaImage{
     margin-left: 30%;
     margin-right: 30%;
+    padding: 0.3em;
   }
   
-  #cookNotes {
-    background-color: green;
-    color: white;
-    font-family: DejaVu Serif, Cochin, Georgia, Times, 'Times New Roman', serif;
+  #cookNotes {margin-top: -.1em;
+    margin-bottom: 10em;
+    color: #755935;
+    text-align: center;
+    padding-top: 1em;n, Georgia, Times, 'Times New Roman', serif;
     margin-left: 30%;
     margin-right: 30%;
     text-align: left;
   }
   .marginBody {
-    background-color: black;
-    color: bisque;
+    background-color: #755935;
+    color: whitesmoke;
+    font-size: 2em;
   }
 
-  .marginBottom {
-    background-color: black;
-    margin:-30px -8px -10px -8px;
-    padding-top: 50px;
+  .marginBottom, .marginBottomHome{
+    background-color: #755935;
+    margin:-1.875em -.5em -.625em -.5em;
+    padding-top: 3.125em;
     border-radius: 0;
-    background-color: black;
+  }
+  .marginBottomHome {
+    background-color: #755935;
   }
 
   .lasgnaImage {
-    background-color: black;
-    padding-bottom: 50px;
+    background-color: #755935;
+    padding-top: 8.125em;
   }
   
   p.directions {
     font-weight: bold;
     text-align: left;
   }
+  .flexit {display: flex;}
+ 
   #cooking {
     text-align: center;
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   
-#homepage {
-  color: black;
+.topheader {
+  background-color: bisque;
+  border-bottom: 0.3em solid #755935;
+  color: #755935;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  margin: -0.5em;
+  z-index: 0;
+}
+.topheader h1 {
+  font-size: 3em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.recipeContainer {
+  color: #755935;
+  margin: auto;
+  padding-top: 8em;
+  width: 50%;
+  }
+.recipeList, {
+}
+
+.recipeList h1{
+  margin: 0.2em auto;
+  text-align: center;
+}
+.recipeList h3{
+  font-size: 1em;
+  text-align: center;
+}
+.recipeList h3:last-child{
+  margin-bottom: 2em;
+}
+.recipeList img {
+  width: 10em;
 }
 
