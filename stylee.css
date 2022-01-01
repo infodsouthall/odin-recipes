@@ -10,7 +10,8 @@ A.topLinks:hover {
   COLOR: bisque; 
   background-color:#755935; 
   text-decoration: none; 
-  font-weight: none }
+  font-weight: none;
+ }
 .table {
   text-align: center;
   margin-left: 30%;
@@ -30,6 +31,9 @@ ul#topLinks {
   margin:0;
   padding:0;
   justify-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
 
 li#topLinks {
@@ -41,10 +45,14 @@ li a.topLinks {
   color: #755935;
   text-align: center;
   text-decoration: none;
+  gap:.1em;
 }
 
 li a.topLinks:hover {
   background-color: #755935;
+  border-top: .3em solid #00aa99;
+  border-radius: .3em;  
+  gap:8px;
 }
 
 body {
