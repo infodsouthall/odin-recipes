@@ -13,21 +13,23 @@ A.topLinks:hover {
   font-weight: none }
 .table {
   text-align: center;
-  width: 50%;
-  margin: auto;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 a.topLinks {
   background-color:bisque; 
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px; 
   font-weight: bold;
-  position: absolutedd;
-  margin-bottom: 1em; 
   padding: .5em .9375em .5em .9375em;
-  display: block;
 } 
 ul#topLinks {
-  list-style-type: none;
   background-color: bisque;
+  display: flex;
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  justify-content: space-around;
 }
 
 li#topLinks {
@@ -53,13 +55,13 @@ div {
     background-color: transparent;
     margin:0;
     border-radius: 0;
-    font-family: DejaVu Serif, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
     text-align: center;
     /* padding-bottom: .875em; */
   }
   div a{padding-top: 2em;}
-
+  h1, h2{text-transform: uppercase;}
   hr {
     display: block;
     margin-top: 0.5em;
@@ -100,6 +102,7 @@ h1.toppage {
     margin-left: 30%;
     margin-right: 30%;
     padding: 0.3em;
+    word-wrap: break-word;
   }
   
   #cookNotes {
@@ -107,7 +110,7 @@ h1.toppage {
     margin-bottom: 10em;
     color: #755935;
     text-align: center;
-    padding-top: Cambria, Georgia, Times, 'Times New Roman', serif;
+    padding-top: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-left: 30%;
     margin-right: 30%;
     text-align: left;
@@ -157,7 +160,7 @@ h1.toppage {
 .topheader h1 {
   font-size: 3em;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 0.5em;
 }
 .recipeContainer {
   color: #755935;
@@ -177,7 +180,7 @@ h1.toppage {
   text-align: center;
 }
 .recipeList h3:last-child{
-  margin-bottom: 2em;
+  margin-bottom: 10em;
 }
 .recipeList img {
   width: 10em;
